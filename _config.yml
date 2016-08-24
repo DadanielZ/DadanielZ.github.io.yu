@@ -1,11 +1,12 @@
 # Site settings
-title: Dong Liang's CV 
-description: ddbullfrog's CV
+title: Zheyan Yu’s CV 
+description: Zheyanyu’s CV
 favicon: /assets/img/avatar.JPG
-baseurl: https://ddbullfrog.github.io/resumecard
-url: https://ddbullfrog.github.io/resumecard
+#baseurl: https://ddbullfrog.github.io/resumecard
+#url: https://ddbullfrog.github.io/resumecard
+url: www.yuzheyan.com
 rss_url: /pages/atom.xml
-google_analytics: UA-63653234-1
+#google_analytics: UA-63653234-1
 
 # Build settings
 markdown: kramdown
@@ -14,72 +15,77 @@ exclude: [vendor]
 
 # Author settings
 author:
-  name: Dong Liang
-  title: Java Developer
-  address: Auckland, New Zealand
-  email: dongg.liang@gmail.com
-  link: http://ddbullfrog.com
-  weibo:
-  github: ddbullfrog
-  linkedin: ddbullfrog
-  twitter: ddbullfrog
+  name: Zheyan Yu
+  title: Software Developer
+  address: Santa Clara, CA
+  email: aliceyu855@gmail.com
+  link: http://www.yuzheyan.com
+ # weibo:
+  github: zheyanAlice
+  linkedin: aliceyu01
+# twitter: ddbullfrog
   gavatar: /resumecard/assets/img/avatar.JPG
-  stackoverflow:
+#  stackoverflow:
 #  stackoverflow: 4582127
   workHistory:
     - work1:
-      company: Finzsoft Solutions Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
-      started: 2014
-      duration: (2014 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: 1For.One Corporation
+      location: Santa Clara, CA
+      title: Software Developer
+      started: Nov 2015
+      duration: (2015 - Present)
+      description: · Designed the platform of job search system using Python, MongoDB, ElasticSearch, Celery, Redis, Docker, Jenkins etc. <br />· Extracted candidates’ resumes using natural language processing(NLP) and Regular Expression in Python Crawled job postings on different websites using Beautiful Soup and Regular Expressing. <br />· Designed API for MongoDB under Test-driven development
     - work2:
-      company: Agfa HealthCare
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-    - work3:
-      company: Citigroup Services and Technology (China) Limited
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: China Telecom
+      location: Hangzhou, China
+      title: Software Developer
+      started: 2013
+      duration: (JAN 2013 - SEP 2013)
+      description: · Designed application on Android platform and worked on traffic surveillance camera project.<br />· Provided mobile phone application with real-time traffic status to help the user avoid traffic congestion<br />· Checked the surveillance camera to make sure it wouldn’t turn into residents’ windows<br />· Cooperated with different departments to meet different requests and needs.
+
   educationHistory:
     - education1:
-      organization: Northeastern University
-      location: Shenyang, China
-      degree: Bachelor
+      organization: Syracuse University–L.C.Smith College of	Engineering
+      location: Syracuse, BY
+      degree: Master
       major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      started: 2013
+      duration: (2013 - 2015)
+      description: Courses Object Oriented Programing, Android Application	Development, Data Structure and Algorithm.
+
   languages:
     - language1:
-      name: Chinese
-      proficiency: Native
-    - language2:
       name: English
       proficiency: Professional
-    - language3:
-      name: Japanese
-      proficiency: Limit
+    - language2:
+      name: Chinese
+      proficiency: Professional
   programmingSkills:
     - skill1:
-      name: HTML
-      percentage: 100%
+      name: Python
+      percentage: 95%
     - skill2:
-      name: Bootstrap
+      name: JAVA
       percentage: 90%
     - skill3:
-      name: JavaScript
-      percentage: 70%
+      name: MongoDB
+      percentage: 95%
     - skill4:
-      name: AngularJS
-      percentage: 70%
+      name: Redis
+      percentage: 95%
     - skill5:
-      name: Java/Java EE
+      name: ElasticSearch
+      percentage: 95%
+    - skill6:
+      name: Celery
       percentage: 90%
+    - skill7:
+      name: Docker
+      percentage: 80%
+    - skill8:
+      name: Trello
+      percentage: 90%
+    - skill9:
+      name: Git
+      percentage: 80%
+
